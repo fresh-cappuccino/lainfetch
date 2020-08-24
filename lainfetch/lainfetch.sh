@@ -2,7 +2,7 @@
 
 set_info() {
 
-d_title=$USER@$HOSTNAME
+d_title="Let'sAllLove@Lain"
 d_os_a=$(uname -a | awk '{print $2}')
 d_os_o=$(uname -o)
 d_kerneln=$(cat /proc/sys/kernel/ostype)
